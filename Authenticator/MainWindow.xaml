@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Authenticator.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Authenticator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Authenticator"
+    >
+
+    <Grid Background="Black">
+        <Ellipse x:Name="AuthIcon" Width="100" Height="100" Fill="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Content="Authenticate" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50" Click="OnAuthenticateButtonClick"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Authenticator (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Authenticator (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
